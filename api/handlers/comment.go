@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"forum-api/models"
-	"forum-api/services"
 	"net/http"
+
+	"github.com/aditya22e/forum-api/models"
+	"github.com/aditya22e/forum-api/services"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

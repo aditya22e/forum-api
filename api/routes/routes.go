@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"forum-api/api/handlers"
-	"forum-api/api/middleware"
-	"forum-api/services"
+	"github.com/aditya22e/forum-api/api/handlers"
+	"github.com/aditya22e/forum-api/api/middleware"
+	"github.com/aditya22e/forum-api/services"
 
 	"github.com/gin-gonic/gin"
 )

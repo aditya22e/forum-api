@@ -1,9 +1,10 @@
 package services
 
 import (
-	"forum-api/config"
-	"forum-api/models"
 	"time"
+
+	"github.com/aditya22e/forum-api/config"
+	"github.com/aditya22e/forum-api/models"
 
 	"gorm.io/gorm"
 )

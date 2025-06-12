@@ -1,8 +1,9 @@
 package config
 
 import (
-	"forum-api/models"
 	"os"
+
+	"github.com/aditya22e/forum-api/models"
 
 	"github.com/sirupsen/logrus"
 	"gorm.io/driver/postgres"

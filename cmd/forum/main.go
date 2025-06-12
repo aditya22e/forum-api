@@ -1,9 +1,9 @@
 package main
 
 import (
-	"forum-api/api/routes"
-	"forum-api/config"
-	"forum-api/services"
+	"github.com/aditya22e/forum-api/api/routes"
+	"github.com/aditya22e/forum-api/config"
+	"github.com/aditya22e/forum-api/services"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
