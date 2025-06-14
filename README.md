@@ -1,46 +1,40 @@
 Current Folder Structure
 
-
-└───forum-api-main
-    │   go.mod
-    │   go.sum
-    │   
-    ├───api
-    │   ├───handlers
-    │   │       comment.go
-    │   │       topic.go
-    │   │       user.go
-    │   │       
-    │   ├───middleware
-    │   │       auth.go
-    │   │
-    │   └───routes
-    │           routes.go
-    │
-    ├───cmd
-    │   └───forum
-    │           main.go
-    │
-    ├───config
-    │       db.go
-    │
-    ├───models
-    │       comment.go
-    │       subscription.go
-    │       topic.go
-    │       user.go
-    │
-    ├───scripts
-    │       init.sql
-    │
-    ├───services
-    │       email.go
-    │       scheduler.go
-    │       topic.go
-    │       user.go
-    │
-    ├───tests
-    │       topic_tests.go
-    │
-    └───utils
-            jwt.go
+discussion-forum/
+├── cmd/
+│   └── discussion-forum/
+│       └── main.go # entry point
+├── api/
+│   ├── handlers/
+│   │   ├── topic.go
+│   │   ├── user.go
+│   │   └── comment.go
+│   ├── middleware/
+│   │   └── auth.go
+│   └── routes/
+│       └── routes.go
+├── config/
+│   └── db.go
+├── models/
+│   ├── user.go
+│   ├── topic.go
+│   ├── comment.go
+│   └── subscription.go
+├── services/
+│   ├── topic.go
+│   ├── user.go
+│   ├── email.go
+│   └── scheduler.go
+├── utils/
+│   └── jwt.go
+├── tests/
+│   └── topic_test.go
+├── docs/
+│   └── swagger.yaml
+├── scripts/
+│   └── init.sql
+├── .env
+├── .gitignore
+├── go.mod
+├── go.sum
+└── README.md 
