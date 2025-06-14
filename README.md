@@ -1,5 +1,6 @@
 Current Folder Structure
 
+```
 discussion-forum/
 ├── cmd/
 │   └── discussion-forum/
@@ -38,3 +39,4 @@ discussion-forum/
 ├── go.mod
 ├── go.sum
 └── README.md 
+```
